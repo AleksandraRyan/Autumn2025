@@ -13,6 +13,8 @@ img {
   border-radius: 5px;
 }
 
+/* Header */
+
 .container {
   max-width: 900px;
   margin: 0 auto 20px;
@@ -49,11 +51,15 @@ header a:hover {
   color: #96e6a1;
 }
 
+/* Gallery */
+
 section .images {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
+
+/* Media Queries */
 
 @media (max-width: 937px) {
   section .images {
@@ -66,4 +72,35 @@ section .images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+@media (max-width: 400px) {
+  section .images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer h5 {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+footer small {
+  font-weight: 400;
+}
+
+footer h5 a {
+  text-decoration: none;
+  color: rgb(93, 10, 177);
+  font-style: oblique;
+}
+
+footer h5 a:hover {
+  text-decoration: underline;
 }
