@@ -20,6 +20,13 @@ img {
   margin: 0 auto 20px;
 }
 
+.container header img {
+  width: 600px;
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+}
+
 header {
   text-align: center;
 }
@@ -35,6 +42,7 @@ header p {
 
 header a {
   margin-bottom: 19px;
+  margin-top: 19px;
   display: inline-block;
   text-decoration: none;
   font-style: oblique;
@@ -55,7 +63,7 @@ header a:hover {
 
 section .images {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
 }
 
